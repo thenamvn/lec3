@@ -1,0 +1,12 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgsl, path/to/imgs2, .
+path: /Users/Administrator/datasets # dataset root dịn
+
+train: train/images # train images (relative to 'path') 128 inages
+
+val: train/images # val images (relative to 'path') 128 images
+
+test: # test images (optional)
+
+# Classes
+nc: 5  # number of classes
+names: ['bull','rua','ha ma','vit','khi']  # class names
